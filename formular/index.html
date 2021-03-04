@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <form id="form" class="form">
+            <h1>Disponibilitate</h1>
+            <div class="box">
+                <label for="email">Adresa email:</label>
+                <input type="text" name="email" id="email">
+                <small></small>
+            </div>
+
+            <div class="box">
+                <label for="ora">Interval orar:</label>
+                <select name="ora" id="ora">
+                  <option value="ora1">09:30-11:20</option>
+                  <option value="ora2">11:30-13:20</option>
+                  <option value="ora3">13:30-15:20</option>
+                  <option value="ora4">15:30-17:20</option>
+                  <option value="ora5">17:30-19:20</option>
+                </select>
+            </div>
+
+            <div class="box">
+                <label for="profesor">Profesor:</label>
+                <select name="profesor" id="profesor">
+                  <option value="profesor1">Profesor1</option>
+                  <option value="profesor2">Profesor2</option>
+                  <option value="profesor3">Profesor3</option>
+                </select>
+            </div>
+
+            <div class="box">
+                <label for="sala">Sala curs:</label>
+                <select name="sala" id="sala">
+                  <option value="sala1">Sala1</option>
+                  <option value="sala2">Sala2</option>
+                  <option value="sala3">Sala3</option>
+                  <option value="sala4">Sala4</option>
+                  <option value="sala5">Sala5</option>
+                </select>
+            </div>
+
+            <div class="box">
+                <button type="submit" class="btn">Programeaza</button>
+            </div>
+        </form>
+    </div>
+
+    <div id="retrieve">
+
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

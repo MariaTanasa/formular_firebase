@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 500px;
+}
+
+.form {
+    padding: 15px 25px;
+}
+
+.form h1 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box {
+    margin-bottom: 10px;
+}
+
+.box label,
+option {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.box input,
+select {
+    border: solid 2px #f0f0f0;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+}
+
+.box input,
+select,
+option:focus {
+    outline: none;
+}
+
+
+/* button */
+
+.btn {
+    width: 100%;
+    padding: 3%;
+    background: black;
+    border-bottom: 2px solid;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background: rgb(129, 129, 129);
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+#retrieve {
+    background-color: rgb(223, 221, 221);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+}
